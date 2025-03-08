@@ -1,0 +1,38 @@
+/******************************************* General Styles ***********************************/
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: white;
+    color: #333;
+}
+
+/************************************** Fruites Section ************************************/
+h1{
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.buy_now{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+
+}
+
+span[class="buy_now"]:hover{
+    cursor: pointer;
+    background-color: gray;
+    color: #000;
+}
+
+#best_fresh_orange, #best_fresh_guava, #best_fresh_grapes{
+    font-size: 25px;
+}

@@ -1,0 +1,54 @@
+/******************************************* General Styles ***********************************/
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: white;
+    color: #333;
+}
+/************************************** Services Section ************************************/
+
+h1{
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  /*  text-align: center;*/
+}
+
+.services-table {
+    width: 80%;
+    margin: 150px auto;
+    text-align: center;
+    border-collapse: collapse;
+    border-spacing: 100px;
+}
+
+#orange, #grapes, #guava{
+    color: #FF6D2D;
+    text-align: center;
+    margin: 10px;
+}
+.orange_td, .grapes_td, .guava_td{
+    text-align: center;
+} 
+
+.services-table td[class]:hover{
+    border-top: 5px solid orangered;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+span.read_more{
+     border: 1px solid black; 
+    width: 200px; 
+    height: 30px; 
+    padding: 10px;
+    margin-top: 50px;
+    text-align: center; 
+    background-color: black; 
+    color: white;
+}
+span[class="read_more"]:hover{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+}

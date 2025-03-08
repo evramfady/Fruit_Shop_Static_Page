@@ -1,0 +1,241 @@
+/******************************************* General Styles ***********************************/
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: white;
+    color: #333;
+}
+
+/******************************************* Welcome Section *********************************/
+.welcome-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 10%;
+    background-color: #fff;
+}
+
+.welcome-content h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.welcome-content p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.buttons .btn-shop, .buttons .btn-contact {
+    padding: 10px 20px;
+    margin-right: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn-shop {
+    background-color: #FF6D2D;
+    color: white;
+}
+
+.btn-shop:hover {
+    background-color: darkorange;
+}
+
+.btn-contact {
+    background-color: black;
+    color: white;
+}
+
+.btn-contact:hover {
+    background-color: gray;
+    color: #000;
+}
+
+.welcome-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+/************************************** Testimonial Section **********************************/
+.client-feedback {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.client-feedback img {
+    width: 80px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+/******************************************* Fruits Section *********************************/
+.fruits-section {
+    text-align: center;
+    padding: 50px 10%;
+}
+
+.fruit-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.fruit-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.fruit-info {
+    flex: 1;
+    text-align: left;
+}
+
+.fruit-info h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.btn-buy {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.btn-buy:hover {
+    background-color: gray;
+    color: #000;
+}
+
+/********************************* Contact Form Styling ***************************************/
+.contact-form {
+    width: 50%;
+    margin: 50px auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+   
+}
+
+h1 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: flex-start;
+}
+
+td {
+    padding: 10px;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border: none;
+    border-bottom: 2px solid black;
+}
+
+/* Layout Styling */
+.contact-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-top: 50px;
+}
+
+/* Orange Dish Image Styling */
+.orange-dish img {
+    width: 300px;
+    height: auto;
+    display: block;
+}
+
+/********************************************* footer styling**********************************************/
+
+footer {
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-table {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    /*text-align: center;*/
+}
+
+.footer-table td {
+    padding: 15px;
+    vertical-align: top;
+    width: 10%;
+}
+
+h3 {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+p {
+    font-size: 14px;
+}
+
+.social-icons {
+    margin: 10px 0;
+    font-size: 20px;
+}
+
+.subscribe-section input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: none;
+    border-bottom: 2px solid black;
+}
+
+.copyright {
+    margin-top: 20px;
+    border-top: 1px solid #ddd;
+    padding-top: 10px;
+    font-size: 14px;
+}
+
+button {
+    width: 40%;
+    padding: 12px;
+    background-color: orange;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: darkorange;
+}
